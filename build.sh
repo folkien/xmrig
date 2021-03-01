@@ -8,3 +8,4 @@ CMAKE="-O2 -march=native -mtune=native" cmake ..
 make -j9
 mkdir -p /opt/xmrig/
 cp -rfv xmrig /opt/xmrig/
+cp -rfv ../start.sh /opt/xmrig/
